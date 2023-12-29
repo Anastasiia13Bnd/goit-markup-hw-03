@@ -142,9 +142,10 @@ color:#2E2F42;
 
 /*hero image*/
 
-
-.hero-container {
+.section-hero {
     background-color: #2E2F42;
+}
+.hero-container {
     padding: 188px 0;
 }
 
@@ -354,7 +355,7 @@ gap: 8px;
     gap: 8px;
 }
 /*footer*/
-.footer-container {
+.footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -365,6 +366,7 @@ gap: 8px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .logo-footer-span {
@@ -374,6 +376,7 @@ gap: 8px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .footer-text {
@@ -383,4 +386,12 @@ gap: 8px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        width: 264px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 16px;
 }
